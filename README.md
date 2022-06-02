@@ -16,8 +16,8 @@ Le nom de Sérénus sur discord est : Serenus#8250.
 
 - [Farmata SIDIBE](https://github.com/Farmata-sidibe)
 - [Amaury FRANSSEN](https://github.com/ExploryKod) 
-- [Nachmia Mohamed](https://github.com/Nachmia)
-- [Sorelle Moukalla](https://github.com/MklSorelle)
+- [Nachmia MOHAMED](https://github.com/Nachmia)
+- [Sorelle MOUKALLA](https://github.com/MklSorelle)
 
 ### But du projet
 
