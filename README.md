@@ -8,7 +8,7 @@ Ce projet est toujours en cours de conception.
 
 Serenus est un bot qui aide les personnes souffrant de troubles psychologiques ou ayant simplement besoin de se détendre sur discord.<br/> 
 
-Appellez Serenus et profitez de son assistance pour vous détendre, rechercher un psychologue ou un autre professionnel, avoir accés à des liens vers des vidéos ou des images.
+Appelez Serenus et profitez de son assistance pour vous détendre, rechercher un psychologue ou un autre professionnel, avoir accès à des liens vers des vidéos ou des images.
 
 Le nom de Sérénus sur discord est : Serenus#8250.
 
@@ -21,7 +21,7 @@ Le nom de Sérénus sur discord est : Serenus#8250.
 
 ### But du projet
 
-Le but est ici d'apprendre à créer un arbre en python, une datastructure bien adapté à ce type de projet.
+Le but est ici d'apprendre à créer un arbre en python, une data structure bien adaptée à ce type de projet.
 
 Il faut ensuite utiliser l'arbre pour activer et animer le bot qui aura été créé grâce aux outils de "discord développeur".
 
