@@ -261,7 +261,7 @@ async def dance(ctx):
     await ctx.send(embed = embed)
 
 
-#quiz serenus
+quiz serenus
 
 @client.command()
 async def objectif(ctx):
@@ -365,4 +365,4 @@ async def game_dialogue(ctx):
     except:
         await ctx.send("Fin de la partie ! Veuillez recommencer")
 
-client.run("OTc4NTcxMDAxODgzNDIyNzMx.G8UcSD.vDXZMSBgHJUS36FR2evBW4zIC4pz-E04Nw8UGw")
+client.run("Veuillez inscrire ici le token que l'on vous a fournit")
