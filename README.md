@@ -12,6 +12,10 @@ Appellez Serenus et profitez de son assistance pour vous détendre, rechercher u
 
 Le nom de Sérénus sur discord est : Serenus#8250.
 
+### Equipe: 
+
+
+
 ### But du projet
 
 Le but est ici d'apprendre à créer un arbre en python, une datastructure bien adapté à ce type de projet.
@@ -19,6 +23,7 @@ Le but est ici d'apprendre à créer un arbre en python, une datastructure bien 
 Il faut ensuite utiliser l'arbre pour activer et animer le bot qui aura été créé grâce aux outils de "discord développeur".
 
 ### Technologies : 
-   ![python](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  	![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+    ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)
    
 Tout conseil pour améliorer le code sont les bienvenus.
