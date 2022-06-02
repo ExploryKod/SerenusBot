@@ -159,7 +159,7 @@ async def on_message(message):
         return
 
     if message.content == "del":
-        await message.channel.purge(limit=50)
+        await message.channel.purge(limit=2)
 
     if message.content == "hello":
         await message.channel.send('Bienvenue dans Serenus Bot !')
