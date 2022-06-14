@@ -4,8 +4,6 @@
 
 ## <p align="center"> Création d'un bot d'aide psychologique sur <a href="https://discord.com/"> discord </a> </p>
 
-Ce projet est toujours en cours de conception. 
-
 Serenus est un bot qui aide les personnes souffrant de troubles psychologiques ou ayant simplement besoin de se détendre sur discord.<br/> 
 
 Appelez Serenus et profitez de son assistance pour vous détendre, rechercher un psychologue ou un autre professionnel, avoir accès à des liens vers des vidéos ou des images.
