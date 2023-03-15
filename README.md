@@ -4,11 +4,12 @@
 
 ## <p align="center"> Création d'un bot d'aide psychologique sur <a href="https://discord.com/"> discord </a> </p>
 
-Serenus est un bot qui aide les personnes ayant simplement besoin de se détendre sur discord.<br/> 
+Serenus est un bot qui a aidé les personnes ayant simplement besoin de se détendre sur discord.<br/> 
+Il a pris sa retraite mais son code est toujours disponible ici.
 
-Appelez Serenus et profitez de son assistance pour vous détendre, rechercher de l'aide, avoir accès à des liens vers des vidéos ou des images.
+Vous pouviez appeler Serenus et profiter de son assistance pour vous détendre, rechercher de l'aide, avoir accès à des liens vers des vidéos ou des images.
 
-Le nom de Sérénus sur discord est : Serenus#8250.
+Le nom de Sérénus sur discord était : Serenus#8250.
 
 ### Equipe: 
 
