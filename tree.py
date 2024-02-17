@@ -33,7 +33,7 @@ question_atelier_jeu = "Quels type de jeux ? : \njeu de gestion de `conflit`\nje
 
 
 
-Root = Node("Dites help pour commencer l'étude","aide")
+Root = Node("Dites help pour commencer l'étude","help")
 
 Root.insert(Node(first_question_racine,"help"),"Dites help pour commencer l'étude")
 # =================      questions reponse pour gérer le sommeil

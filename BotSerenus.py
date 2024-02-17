@@ -1,22 +1,20 @@
-
 import discord
 from tree import *
-
-from ast import Try
-client = discord.Client()
-
 from discord.ext import commands
+from dotenv import load_dotenv
+import os
 
-client = commands.Bot(command_prefix="")
+# Load environment variables from .env file
+load_dotenv()
 
-
-
+# Create a bot instance
+intents = discord.Intents.default()
+intents.message_content = True
+client = commands.Bot(command_prefix = "", intents = intents)
 
 @client.event
 async def on_ready():
-    print("Le bot est prêt.")
-
-
+    print("Bot is ready.")
 
 #lorsqu'on a un nouveau membre
 @client.event
@@ -29,7 +27,7 @@ async def on_member_join(member):
 
 @client.command()
 async def serenus(ctx,arg):
-    
+
     if arg != "back" and arg != "quit":
         for child in current_path[-1].list_child_node:
             if child.keyword in arg:
@@ -45,8 +43,6 @@ async def serenus(ctx,arg):
 
     elif arg == "quit" and arg != "back":
         await ctx.send("Vous n'êtes avez quittez la séance d'accompagnement\n Taper `serenus back` pour revenir en arriere ou `hello` pour retourner à l'accueil")
-
-
 
 """ Game SMART """
 
@@ -96,9 +92,6 @@ async def smart(ctx):
 
     except:
         await ctx.send("Fin de la partie ! Veuillez recommencer")
-
-    
-
 
 """ GAME Dialogue """
 
@@ -180,10 +173,6 @@ async def on_message(message):
 
     await client.process_commands(message)
 
-
-
-
-
 """ Les embeds """
 
 @client.command()
@@ -203,8 +192,6 @@ async def phythothérapie(ctx):
     embed.set_footer(text = "Article réaliser par Farmata")
 
     await ctx.send(embed = embed)
-
-
 
 @client.command()
 async def aromathérapie(ctx):
@@ -315,7 +302,6 @@ async def plaisir(ctx):
 
     await ctx.send(embed = embed)
 
-
 @client.command()
 async def yoga(ctx):
     name = "Séance de Yoga avec Noëlline"
@@ -352,7 +338,6 @@ async def méridienne(ctx):
 
     await ctx.send(embed = embed)
 
-
 @client.command()
 async def musique(ctx):
     name = "Musique Onde du bonheur"
@@ -370,9 +355,6 @@ async def musique(ctx):
     embed.set_footer(text = "Article réaliser par Farmata")
 
     await ctx.send(embed = embed)
-
-
-
 
 @client.command()
 async def chi(ctx):
@@ -392,7 +374,6 @@ async def chi(ctx):
 
     await ctx.send(embed = embed)
 
-
 @client.command()
 async def shiatsu(ctx):
     name = "Le massage shiatsu"
@@ -411,7 +392,6 @@ async def shiatsu(ctx):
 
     await ctx.send(embed = embed)
 
-
 @client.command()
 async def acupuncture(ctx):
     name = "L'acupuncture"
@@ -429,7 +409,6 @@ async def acupuncture(ctx):
     embed.set_footer(text = "Article réaliser par Farmata")
 
     await ctx.send(embed = embed)
-
 
 @client.command()
 async def dormir(ctx):
@@ -488,7 +467,6 @@ async def psychologue(ctx):
     embed.set_image(url = "https://images.pexels.com/photos/4098288/pexels-photo-4098288.jpeg")
     embed.set_footer(text="Auteur: {}".format(ctx.author.display_name))
     await ctx.send(embed = embed)
-
 
 @client.command()
 async def naturopathe(ctx):
@@ -666,4 +644,4 @@ async def escalade(ctx):
 
 
 """ mettez le token de votre bot """
-client.run("")
+client.run(os.getenv("DISCORD_TOKEN"))
